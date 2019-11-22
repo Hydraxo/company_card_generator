@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title> Company Card Generator </title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <h1> Card Design </h1>
+    <div class="card_design-body-main_text"> Now, let's choose a design for your card </div>
+
+    <form class="body-form_main">
+        <label for "card_design-body-form_backgroundColorList">Background-Color</label>
+        <select class="card_design-body-form_backgroundColorList" name="backgroundColor">
+            <option disabled selected value> -- select an option -- </option>
+            <option class="card_design-body-form_colorList_red"> Red </option>
+            <option class="card_design-body-form_colorList_green"> Green </option>
+            <option class="card_design-body-form_colorList_blue"> Blue </option>
+            <option class="card_design-body-form_colorList_yellow"> Yellow </option>
+            <option class="card_design-body-form_colorList_black"> Black </option>
+            <option class="card_design-body-form_colorList_white"> White </option>
+        </select>
+        <label for "card_design-body-form_colorList">Text-Color</label>
+        <select class="card_design-body-form_textColorList" name="textColor">
+            <option disabled selected value> -- select an option -- </option>
+            <option class="card_design-body-form_colorList_red"> Red </option>
+            <option class="card_design-body-form_colorList_green"> Green </option>
+            <option class="card_design-body-form_colorList_blue"> Blue </option>
+            <option class="card_design-body-form_colorList_yellow"> Yellow </option>
+            <option class="card_design-body-form_colorList_black"> Black </option>
+            <option class="card_design-body-form_colorList_white"> White </option>
+        </select>
+        <input type="submit" value="Submit" class="card_design-body-form_input_send" name="cardDesignSend">
+    </form>
+
+    <script type="text/JavaScript" src="card_design.js"></script>
+</body>
